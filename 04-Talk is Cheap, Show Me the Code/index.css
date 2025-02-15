@@ -1,0 +1,61 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black ;
+}
+
+.logo{
+    width:100px;
+    padding:6px;
+    border-radius: 10%;
+
+   
+
+   
+}
+
+.nav-items{
+    margin-left: auto; /* Pushes the nav items closer to the left */
+    margin-right: 50px; /* Adjust this value to move them left as needed */
+}
+
+.nav-items>ul{
+    font-size: 24px;
+    display: flex;
+    list-style-type:none;
+    padding-left: 10px;
+    
+}
+
+.nav-items>ul>li{
+    padding:10px;
+    margin: 10px;
+
+}
+
+/* styling search container */
+.search{
+    padding:10px;
+}
+
+/* styling Restaurant card */
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card{
+    padding: 5px;
+    width: 250px; 
+    margin: 5px;
+    
+    
+}
+
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.res-logo{
+    width: 100%;    
+}
